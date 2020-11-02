@@ -1,0 +1,79 @@
+.codeBlock {
+  border-radius: 10px;
+  font-size: inherit;
+  margin-bottom: 0;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.highlight {
+  /* filter: saturate(0.2); */
+  filter: grayscale(0);
+}
+
+.codeBlockWrapper {
+  font-size: 13px;
+  position: relative;
+}
+
+.codeBlockWrapper:hover > .copyButton {
+  visibility: visible;
+  opacity: 1;
+}
+
+.copyButton {
+  background: rgb(1, 22, 39);
+  border: 1px solid rgb(214, 222, 235);
+  border-radius: var(--ifm-global-radius);
+  color: rgb(214, 222, 235);
+  cursor: pointer;
+  line-height: 12px;
+  opacity: 0;
+  outline: none;
+  padding: 4px 8px;
+  position: absolute;
+  right: var(--ifm-pre-padding);
+  top: var(--ifm-pre-padding);
+  visibility: hidden;
+  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out,
+    bottom 200ms ease-in-out;
+}
+
+.previewWrapper {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ifm-hover-overlay);
+  margin-top: 10px;
+  /* color: white; */
+  padding: 20px;
+}
+
+.column {
+  flex-direction: column;
+}
+.column > div {
+  flex-direction: column;
+}
+
+.previewWrapper > button,
+.previewWrapper > div > button {
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  width: auto;
+
+  /* background: var(--ifm-color-primary); */
+}
+
+.previewWrapper > div {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.previewWrapper > div > div {
+  margin: 10px;
+}

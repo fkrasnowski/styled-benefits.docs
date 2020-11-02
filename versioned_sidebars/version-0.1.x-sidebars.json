@@ -1,0 +1,49 @@
+{
+  "version-0.1.x/someSidebar": [
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Introduction",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.1.x/start"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "API",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.1.x/API/variants"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.1.x/API/events"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.1.x/API/keyframes"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Integrations",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.1.x/INTEGRATIONS/other-tools"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.1.x/INTEGRATIONS/recomended"
+        }
+      ]
+    }
+  ]
+}
