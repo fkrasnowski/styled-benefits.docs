@@ -3,7 +3,7 @@ name: interactions
 title: Interactions
 ---
 
-As you know _css_ includes events like `:hover`, `:active`, but there are very **limited** for making elements **interactive**. The `:hover` pseudoclass ataches styles when mouse pointer is over element. It works well on desktop but on **mobile** device its behavoir is rather unwanted sometimes even **terrible**. It stands out from the **_moblie first era_**.
+As you know _css_ includes events like `:hover`, `:active`, but there are very **limited** for making elements **interactive**. The `:hover` pseudoclass attaches styles when the mouse pointer is over the element. It works well on desktop but on the **mobile** device its behavior is rather unwanted sometimes even **terrible**. It stands out from the **_mobile first era_**.
 
 ## Interactive
 
@@ -146,7 +146,7 @@ render(<Box />)
 ```
 
 :::tip
-**after...** selectors are great for trigering **animations**. Just attach `keyframes` from **styled-componetns/Emotion** and adjust **duration**> The style is applied like in **example above**
+**after...** selectors are great for triggering **animations**. Just attach `keyframes` from **styled-components/Emotion** and adjust **duration**> The style is applied like in the **example above**
 :::
 
 :::note credit

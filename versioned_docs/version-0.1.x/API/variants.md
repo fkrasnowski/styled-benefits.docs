@@ -3,14 +3,14 @@ id: variants
 title: Variants
 ---
 
-_Styled Benefits_ provides extremely straight-forward way to define variants.
+_Styled Benefits_ provides an extremely straight-forward way to define variants.
 First `import` `variant`:
 
 ```js
 import { variant } from 'styled-benefits'
 ```
 
-Then use it like a normal `selector` in your styled component:
+Then use it as a normal `selector` in your styled component:
 
 ```jsx live
 const Box = styled.div`
@@ -30,7 +30,7 @@ render(
 )
 ```
 
-_Variants_ work similarly to `:hover` or `@media` selectors if `variant` prop matches the function argument, coresponding style is selected.
+_Variants_ work similarly to `:hover` or `@media` selectors if `variant` prop matches the function argument, corresponding style is selected.
 
 ## Style based on component props
 
@@ -59,7 +59,7 @@ render(
 )
 ```
 
-If you want to just check for existence of property, pass it name as string:
+If you want to just check for the existence of the property, pass its name as a string:
 
 ```jsx live
 const Button = styled.button`
@@ -107,7 +107,7 @@ render(
 
 ## Alternatives
 
-There are plenty of libraries that "_simplifies_" styling components via props. For example popular [_Styled Map_](https://github.com/scf4/styled-map):
+There are plenty of libraries that "_simplifies_" styling components via props. For example; popular [_Styled Map_](https://github.com/scf4/styled-map):
 
 ```jsx title=Styled_Map
 const Box = styled.div`
@@ -143,7 +143,7 @@ const Box = styled.div`
 `
 ```
 
-You can instanlty see the diference beetween these approaches. `Styled System` is designed to work with style `objects`, while `Styled Benefits` works with `tagged template literals`:
+You can instantly see the difference between these approaches. `Styled System` is designed to work with style `objects`, while `Styled Benefits` works with `tagged template literals`:
 
 ```jsx title=Styled_Benefits_💗
 const Box = styled.div`

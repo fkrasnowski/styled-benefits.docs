@@ -118,7 +118,7 @@ render(<FancyBox />)
 ```
 
 :::caution
-Be aware using `seek` with **range sliders** or **scroll events**. Remeber to wrap `seek` execution with `throttle` or `raf` handlers
+Be aware of using `seek` with **range sliders** or **scroll events**. Remember to wrap `seek` execution with `throttle` or `raf` handlers
 :::
 
 ## Avaliable methods
