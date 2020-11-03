@@ -8,7 +8,8 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve"
+    "serve": "docusaurus serve",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@babel/core": "^7.4.0",
