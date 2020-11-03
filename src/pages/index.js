@@ -32,9 +32,9 @@ const features = [
     imageUrl: 'img/undraw_Ride_till_I_can_no_more.svg',
     description: (
       <>
-        <strong>Styled Benefits</strong> lets you uleash the dormant potiential
-        of css-in-js. It allows you to fullfill your desires with{' '}
-        <strong>terse</strong> and <strong>consise</strong> syntax
+        <strong>Styled Benefits</strong> lets you unleash the dormant potential
+        of css-in-js. It allows you to fulfill your desires with{' '}
+        <strong>terse</strong> and <strong>concise</strong> syntax
       </>
     ),
   },

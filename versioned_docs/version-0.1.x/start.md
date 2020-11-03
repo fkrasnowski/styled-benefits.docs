@@ -27,9 +27,10 @@ const Container = interactive(styled.div`
   display: flex;
   border-radius: 10px;
   justify-content: center;
+  transition: all 0.2s;
   ${whileHold} {
     background: black;
-    img {
+    #logo {
       filter: drop-shadow(16px 16px 20px red) invert(90%);
     }
   }
@@ -40,7 +41,7 @@ const Container = interactive(styled.div`
 
 render(
   <Container>
-    <Benefits src='/static/img/styled-benefits-logo.svg' alt='Logo' />
+    <Benefits src='/img/styled-benefits-logo.svg' alt='Logo' id='logo' />
   </Container>
 )
 ```

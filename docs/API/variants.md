@@ -93,7 +93,7 @@ const Box = styled.div`
     background: #ce646f;
   }
   ${withProps('blue', 'pink')} {
-    background: linear-gradinet(#ce646f, #3f88c5);
+    background: linear-gradient(#ce646f, #3f88c5);
   }
 `
 render(
